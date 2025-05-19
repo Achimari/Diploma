@@ -1,0 +1,57 @@
+# -----------------------
+# General OS/Editor Files
+# -----------------------
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.idea/
+*.iml
+*.ipr
+*.iws
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# -----------------------
+# Visual Studio Code
+# -----------------------
+# Uncomment to ignore VS Code settings
+#.vscode/
+
+# -----------------------
+# Flutter / Dart / Pub
+# -----------------------
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+**/doc/api/
+**/ios/Flutter/.last_build_id
+/build/
+
+# -----------------------
+# Android Studio Build Outputs
+# -----------------------
+/android/app/debug/
+android/app/profile/
+android/app/release/
+
+# -----------------------
+# Obfuscation and Symbolication
+# -----------------------
+app.*.map.json
+app.*.symbols
+
+# -----------------------
+# Recommended: Ignore large asset types
+# -----------------------
+*.png
+*.sf2
+assets/**/*.png
+assets/**/*.sf2
