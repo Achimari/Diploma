@@ -17,7 +17,6 @@ class _LoadPageState extends State<LoadPage> with SingleTickerProviderStateMixin
   void initState() {
     super.initState();
 
-    /// Animation lasts 5 seconds
     _controller = AnimationController(
       duration: const Duration(seconds: 5),
       vsync: this,
@@ -28,10 +27,8 @@ class _LoadPageState extends State<LoadPage> with SingleTickerProviderStateMixin
       curve: Curves.easeIn,
     );
 
-    /// Start animation
     _controller.forward();
 
-    /// After animation ends (5 sec), go to LessonsPage
     _controller.addStatusListener((status) {
       if (status == AnimationStatus.completed && mounted) {
         Navigator.of(context).pushReplacement(

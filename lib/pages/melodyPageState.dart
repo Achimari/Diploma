@@ -84,7 +84,7 @@ class _MelodyPageState extends State<MelodyPage> with SingleTickerProviderStateM
   Future<void> sendToNoteAPI(File audioFile) async {
     var request = http.MultipartRequest(
       'POST',
-      Uri.parse('https://sip-pty-celebrate-truck.trycloudflare.com/extract-notes-from-audio'),
+      Uri.parse('https://cleanup-movie-periods-floors.trycloudflare.com/extract-notes-from-audio'),
     );
     request.files.add(await http.MultipartFile.fromPath('audio', audioFile.path));
     try {

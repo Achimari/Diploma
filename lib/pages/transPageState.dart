@@ -111,7 +111,7 @@ class _NoteTransPageState extends State<TransPage> {
 
       final request = http.MultipartRequest(
         'POST',
-        Uri.parse('https://sip-pty-celebrate-truck.trycloudflare.com/extract-notes'),
+        Uri.parse('https://cleanup-movie-periods-floors.trycloudflare.com/extract-notes'),
       );
 
       request.files.add(await http.MultipartFile.fromPath(

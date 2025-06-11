@@ -90,7 +90,7 @@ class _ImprPageState extends State<ImprPage> with SingleTickerProviderStateMixin
 
       final request = http.MultipartRequest(
         'POST',
-        Uri.parse('https://sip-pty-celebrate-truck.trycloudflare.com/detect-tonality'),
+        Uri.parse('https://cleanup-movie-periods-floors.trycloudflare.com/detect-tonality'),
       );
 
       request.files.add(await http.MultipartFile.fromPath(
